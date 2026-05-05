@@ -10,7 +10,7 @@ export default defineConfig({
     rollupOptions:{
         imput:{
             main: resolve(__dirname, 'index.html'),
-            prueba: resolve(__dirname, prueba.html)
+            prueba: resolve(__dirname, 'prueba.html')
         }
     }
   }
