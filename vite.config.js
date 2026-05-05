@@ -8,7 +8,7 @@ export default defineConfig({
   ],
   build:{
     rollupOptions:{
-        imput:{
+        input:{
             main: resolve(__dirname, 'index.html'),
             prueba: resolve(__dirname, 'prueba.html')
         }
